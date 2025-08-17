@@ -1,5 +1,5 @@
 const API_BASE_URL = process.env.NODE_ENV === 'production' 
-  ? process.env.REACT_APP_API_URL || 'https://your-backend-url.onrender.com'
+  ? process.env.REACT_APP_API_URL || 'https://football-stats-5c2o.onrender.com'
   : 'http://localhost:5000';
 
 // Mock mode for development when API limit exceeded
